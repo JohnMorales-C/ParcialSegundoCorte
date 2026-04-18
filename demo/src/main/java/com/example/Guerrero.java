@@ -1,16 +1,15 @@
 package com.example;
 
-import com.example.Interfaces.Volador;
-
-public class Dragon extends Criatura implements Volador {
-
-    public Dragon(String nombre, int salud, int fuerza) {
+public class Guerrero extends Criatura 
+{
+    public Guerrero(String nombre, int salud, int fuerza) 
+    {
         super(nombre, salud, fuerza);
     }
 
     @Override
     public void atacar(Criatura objetivo) {
-        int daño = fuerza * 2;
+        int daño = fuerza;
         if (arma != null) {
             daño += arma.getDañoAdicional();
         }
@@ -21,10 +20,4 @@ public class Dragon extends Criatura implements Volador {
     public void defender(int daño) {
         salud -= daño;
     }
-
-    @Override
-    public void volar() {}
-
-    @Override
-    public void aterrizar() {}
 }
