@@ -1,4 +1,6 @@
-
+## NOMBRES:
+### -John Steban Morales Ceron
+### -Carlos Alberto Obando Torrente
 # *Juego de Peleas entre Criaturas*
 
 Este proyecto es un jueguito donde las criaturas se pelean entre sí. Cada una tiene sus formas de como atacar y defenderse.
